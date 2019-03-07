@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <title>Color Stuff!</title>
+
+        <link rel="stylesheet" type="text/css" href="./index.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="root">
+          <h1>Color Stuff</h1>
+          <h3>by MattMoony</h3>
+          <div class="root-t">
+            <div class="root-td">
+              <input type="text" placeholder="Color ... "
+                id="in_color" />
+            </div>
+            <div class="root-td">
+              <table>
+                <tr>
+                  <td colspan="3">
+                    <div id="o_up" class="col_out">
+                      <p id="o_up_c">#111</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fas fa-arrow-up" id="i_up" title="Apply color to upper field"></i>
+                  </td>
+                  <td>
+                    <i class="far fa-question-circle" id="i_rand" title="Create random colors"></i>
+                  </td>
+                  <td>
+                    <i class="fas fa-arrow-down" id="i_down" title="Apply color to lower field"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <div id="o_lo" class="col_out">
+                      <p id="o_lo_c">#111</p>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <footer>
+            !&copy; 2019 YourNameCouldBeHere GmbH |
+            All rights not reserved ... |
+            For further information or help:
+            <a href='https://www.google.com' target='_blank'>
+              Here!</a>
+          </footer>
+        </div>
+
+        <script src="./main.js"></script>
+        <script>init();</script>
+    </body>
+</html>

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.root {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 2.5% auto;
+
+    border: 1.5px solid #cecece;
+    border-radius: 2.5px;
+}
+
+.root h1 {
+  font-family: 'PT Serif', serif;
+  letter-spacing: 2.5px;
+  text-align: center;
+  font-size: 2.25em;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.root h1::before, .root h1::after {
+  content: ' ~ ';
+}
+
+.root h3 {
+  margin: 0;
+  margin-bottom: 25px;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 1.5px;
+}
+
+.root footer {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 10px;
+  padding: 10px 0;
+}
+
+.root-t {
+    display: table;
+    width: 100%;
+}
+
+.root-td {
+    display: table-cell;
+    padding: 25px;
+}
+
+.col_out {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 25px;
+    background-color: #111;
+    border-radius: 5px 0;
+}
+
+.col_out p {
+  margin: 0;
+  padding: 7.5px;
+  font-size: 2em;
+  color: #fff;
+  font-family: monospace;
+  letter-spacing: 1.5px;
+  text-shadow: 0px 0px 2px #000;
+  box-sizing: border-box;
+  word-break: break-all;
+  word-wrap: break-word;
+  width: 100%;
+}
+
+.root-td input {
+    padding: 7.5px;
+    border-radius: 2.5px;
+    border: .75px solid #cecece;
+    display: block;
+    margin: 0 auto;
+}
+
+.root-td input:focus {
+    outline: none;
+}
+
+.root-td table {
+    border-spacing: 2.5px;
+    text-align: center;
+    width: 100%;
+    min-width: 300px;
+}
+
+.root-td table td {
+  padding: 15px;
+}
+
+.root-td i {
+    padding: 2.5px;
+    transition: .5s ease;
+}
+
+.root-td i:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+@media only screen and (max-width: 600px) {
+    .root-td {
+        display: block;
+        text-align: center;
+    }
+    .root-td table {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+ @media only screen and (max-width: 768px) {
+    .root {
+        width: 100%;
+        margin: 0;
+        border-width: 1.5px 0;
+        border-radius: 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .root {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
